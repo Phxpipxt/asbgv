@@ -2,237 +2,134 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <title>ASBGV-SIGNATURE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>asbgv-redesign</title>
 </head>
 
 <body>
-  <!-- STYLE -->
-  <style>
-    * {
-      max-width: 300px;
-      height: auto;
-    }
+    <table>
+        <tbody>
+            <tr>
 
-    body {
-      font-family: 'Lato', sans-serif;
-    }
+                <!-- left side details -->
+                <td class="td-left">
+                    <!-- school logo -->
+                    <p class="asb-logo"><span><img src="/images/ASBGV.png" style="width: 300px;" alt=""
+                                class="asb-img"></span></p>
+                </td>
 
-    table {
-      width: 100%;
-      max-width: 415px;
-      border-collapse: collapse;
-    }
+                <!-- Location-detail -->
+                <td class="td-right">
+                    <p class="location"><span class="location-span"><img src="/images/Location.png" alt="location-pin-logo"
+                                class="location-logo">GREEN VALLEY</span></p>
 
-    a {
-      text-decoration: none;
-      color: #000;
-    }
+                    <!-- address detail -->
+                    <p class="addr-detail"><span class="detail-span">900 Moo 3 Bangna-Trad Km.15</span></p>
+                    <p class="addr-detail"><span class="detail-span">Bangplee, Samutprakarn 10540</span></p>
 
-    .td-1 {
-      width: 100%;
-      height: auto;
-      border-width: medium 2pt 2pt medium;
-      border-style: none solid solid none;
-      border-color: #a9a8a8;
-    }
+                    <!-- Contact detail -->
+                    <span class="contact"><img src="/images/Tel.png" alt="tel-logo"
+                            class="contact-img">02-430-8888</span>
+                    <span class="contact"><img src="/images/W.png" alt="web-logo" class="contact-img">asbgv.ac.th</span>
 
-    .td-2 {
-      width: 100%;
-      padding: 0 10px;
-      vertical-align: top;
-    }
+                </td>
 
-    .td-3 {
-      display: flex;
-      width: 100%;
-      height: auto;
-      border-collapse: collapse;
-    }
+            <tr>
+                <td class="td-left-bottom">
 
-    .asb-logo {
-      margin: 2px 20px 10px 2px;
-    }
+                    <ul class="award-list">
 
-    .asb-img {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-    }
+                        <!-- MAA -->
+                        <li class="award-logo">
+                            <a href="https://mindfulnessacademyasia.com/" target="_blank">
+                                <img class="award-img" src="/images/MAA.png" alt="MAA"
+                                style="width: 32px; margin-top: -8px;">
+                            </a>
+                        </li>
 
-    .asb-gv {
-      margin: 0px;
-      font-size: 1.5em;
-    }
+                        <!-- IPGA -->
+                        <li class="award-logo">
+                            <a href="https://asbipga.com" target="_blank">
+                                <img class="award-img" src="/images/IPGA.png" alt="IPGA"
+                                style="width: 40px; margin-top: -8px;">
+                            </a>
+                        </li>
 
-    .asbgv-span {
-      width: 100%;
-      height: auto;
-      padding: 5px;
-    }
+                        <!-- WASC -->
+                        <li class="aw-logo">
+                            <a href="https://wasc.org" target="_blank">
+                                <img class="award-img" src="/images/WASC.png" alt="WASC"
+                                style="width: 52px; margin-top: -4px;">
+                            </a>
+                        </li>
 
-    .gv-logo {
-      width: 100%;
-      height: auto;
-      max-width: 22px;
-      padding-right: 10px;
-    }
+                        <!-- IB -->
+                        <li class="award-logo">
+                            <a href="https://www.ibo.org/programmes/diploma-programme/" target="_blank">
+                                <img class="award-img" src="/images/IB.png" alt="IB"
+                                style="width: 52px; margin-top: 0px;">
+                            </a>
+                        </li>
 
-    .add-txt {
-      margin: 0 0 0 15%;
-      font-size: 12px;
-      color: #595959;
-    }
+                        <!-- AP -->
+                        <li class="award-logo">
+                            <a href="https://apstudents.collegeboard.org" target="_blank">
+                                <img class="award-img" src="/images/AP.png" alt="AP"
+                                style="width: 52px; margin-top: -1px">
+                            </a>
+                        </li>
+                    </ul>
+                </td>
 
-    .contact-span {
-      font-size: 14px;
-      font-weight: 500;
-    }
+                <td class="social">
+                    <ul class="social-list">
+                        <!-- Facebook -->
+                        <li>
+                            <a href="https://www.facebook.com/asbgv" target="_blank">
+                                <img src="/images/F.png" alt="facebook" class="social-logo">
+                            </a>
+                        </li>
 
-    .contact-logo {
-      width: 100%;
-      height: auto;
-      margin-top: -14px;
-      max-width: 18px;
-      padding: 10px 10px 0 10px;
-    }
+                        <!-- Instagram -->
+                        <li>
+                            <a href="https://www.instagram.com/asb_gv/" target="_blank">
+                                <img src="/images/I.png" alt="instagram" class="social-logo">
+                            </a>
+                        </li>
 
-    .social {
-      list-style: none;
-      padding: 0px;
-      margin-top: 4px;
-      margin-bottom: -10px;
-      display: flex;
-    }
+                        <!-- Line -->
+                        <li>
+                            <a href="https://line.me/R/ti/p/@012mcale" target="_blank">
+                                <img src="/images/L.png" alt="line" class="social-logo">
+                            </a>
+                        </li>
 
-    .social-logo {
-      width: 22px;
-      margin-left: 15px;
-      padding: 7px;
-    }
+                        <!-- Tiktok -->
+                        <li>
+                            <a href="https://www.tiktok.com/@asbgv" target="_blank">
+                                <img src="/images/T.png" alt="tiktok" class="social-logo">
+                            </a>
+                        </li>
 
-    .award-list {
-      display: flex;
-      list-style: none;
-      padding: 0px;
-      margin: 0 0 -12px 0;
-    }
+                        <!-- Youtube -->
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCaYAnxMPA84nQWje5XOIJVA" target="_blank">
+                                <img src="/images/Y.png" alt="youtube" class="social-logo">
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
 
-    .logo-list {
-      padding: 7px;
-    }
-  </style>
 
-  <!-- TABLE -->
-  <table>
-    <tbody>
-      <tr>
-
-        <!-- Left-side Details -->
-        <td class="td-1">
-          <!-- SCHOOL LOGO -->
-          <p class="asb-logo"><span><img class="asb-img" src="images/ASBGV.png" alt="school-logo"></span></p>
-        </td>
-
-        <!-- Right-side Details -->
-        <td class="td-2" rowspan="2">
-
-          <!-- Location Details -->
-          <p class="asb-gv"><span class="asbgv-span"><img class="gv-logo" src="/images/Location.png"
-                alt="location-logo">GREEN VALLEY</span></p>
-
-          <!-- Address Details -->
-          <p class="add-txt"><span class="add-span">900 Moo 3 Bangna-Trad Km. 115</span></p>
-          <p class="add-txt"><span class="add-span">Bangplee, Samutprakarn 10540</span></p>
-
-          <!-- Contact Details -->
-          <p>
-            <span class="contact-span"><img class="contact-logo" src="/images/Tel.png" alt="tel-logo">02-430-8888</span>
-            <span class="contact-span"><img class="contact-logo" src="/images/W.png" alt="web-logo"><a
-                href="http://asbgv.ac.th" target="_blank">asbgv.ac.th</a></span>
-          </p>
-
-          <!-- Social Media List -->
-          <ul class="social">
-
-            <li>
-              <a href="https://www.facebook.com/asbgv" target="_blank">
-                <img class="social-logo" src="/images/F.png" alt="facebook-logo">
-              </a>
-            </li>
-
-            <li>
-              <a href="https://line.me/R/ti/p/@012mcale" target="_blank">
-                <img class="social-logo" src="/images/I.png" alt="instagram-logo">
-              </a>
-            </li>
-
-            <li>
-              <a href="https://line.me/R/ti/p/@012mcale" target="_blank">
-                <img class="social-logo" src="/images//L.png" alt="line-logo">
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.tiktok.com/@asbgv" target="_blank">
-                <img class="social-logo" src="/images/T.png" alt="tiktok-logo">
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.youtube.com/channel/UCaYAnxMPA84nQWje5XOIJVA" target="_blank">
-                <img class="social-logo" src="/images/Y.png" alt="youtube-logo">
-              </a>
-            </li>
-
-          </ul>
-        </td>
-
-        <!-- left-side Details -->
-      <tr>
-        <td class="td-3">
-
-          <!-- Award List -->
-          <ul class="award-list">
-
-            <li class="logo-list">
-              <a href="https://mindfulnessacademyasia.com/" target="_blank">
-                <img style="margin-top: -6px; padding-left: -20px;" width="28px" src="/images/MAA.png" alt="MAA">
-              </a>
-            </li>
-
-            <li class="logo-list">
-              <a href="https://asbipga.com" target="_blank">
-                <img style="margin-top: -4px;" width="38px" src="/images/IPGA.png" alt="IPGA">
-              </a>
-            </li>
-
-            <li class="logo-list">
-              <a href="https://wasc.org" target="_blank">
-                <img style="margin-top: -2px;" width="52px" src="/images/WASC.png" alt="WASC">
-              </a>
-            </li>
-
-            <li class="logo-list">
-              <a href="https://wasc.org" target="_blank">
-                <img width="62px" src="/images/IB.png" alt="IB">
-              </a>
-            </li>
-
-            <li class="logo-list">
-              <a href="https://wasc.org" target="_blank">
-                <img width="52px" style="padding-right: 10px;" src="/images/AP.png" alt="AP">
-              </a>
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>

@@ -1,0 +1,64 @@
+* {
+    max-width: 300px;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    width: 100%;
+    max-width: 300px;
+    border-collapse: collapse;
+}
+.td-left {
+    padding: 0px 16px 2px 10px;
+    border-width: medium 2px 2px medium;
+    border-style: none solid solid none;
+    border-color: #a9a8a8;
+}
+
+
+.location-logo {
+    width: 24px;
+    padding: 4px 8px 0 4px;
+}
+
+.location { 
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.contact-img {
+    width: 20px;
+    padding: 2px 10px 0px 10px;
+}
+
+.addr-detail {
+    padding-left: 38px;
+    margin-top: -18px;
+}
+
+.td-left-bottom {
+    border-width: medium 2px 2px medium;
+    border-style: none solid none none;
+    border-color: #a9a8a8;
+}
+
+.award-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+}
+
+.social-logo {
+    width: 24px;
+    padding: 10px;
+}
+
+.award-img {
+    padding: 2px 18px 2px 2px;
+}
